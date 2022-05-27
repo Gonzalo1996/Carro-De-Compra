@@ -1,0 +1,61 @@
+:root{
+
+}
+
+.header_nav{
+    max-width: 1400px;
+    width: 100%;
+    height: 5.5rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_nav--redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.header_nav--redes li{
+    list-style: none;
+    margin: 0 1.5rem 0 1.5rem;
+    cursor: pointer;
+}
+
+.header_nav--redes li a{
+    text-decoration: none;
+}
+
+.header_nav--redes li a i{
+    font-size: 24px;
+    transition: .3s;
+}
+
+.header_nav--redes li a i:hover{
+    font-size: 28px;
+    transition: .3s;
+}
+
+.header_nav--carro{
+    width: 2.5rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.header_nav--carro i{
+    font-size: 22px;
+    color: black;
+}
+
+/*
+.header_nav--carro i:hover{
+    color: grey;
+}
+*/
