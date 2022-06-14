@@ -2,14 +2,19 @@
 
 }
 
+.header{
+    background: gray;
+}
+
 .header_nav{
     max-width: 1400px;
-    width: 100%;
+    width: 90%;
     height: 5.5rem;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .header_nav--redes{
@@ -54,6 +59,36 @@
     color: black;
 }
 
+.carro_registro{
+    background: #fff;
+    width: 22rem;
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+    border: 1px solid;
+}
+
+
+.carro h1{
+    text-align: center;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    width: 90%;
+    margin: auto;
+    padding: 0 0rem 0 0rem;
+}
+
+.gallery > div{
+    width: 33.333%;
+}
+
+.container{
+    text-align: center;
+}
 /*
 .header_nav--carro i:hover{
     color: grey;
